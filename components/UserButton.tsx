@@ -15,7 +15,7 @@ import { signIn } from 'next-auth/react'
 
 export default function UserButton({session}:{session:Session | null}) {
   if(!session) return(
-    <Button variant={'outline'} onClick={()=> signIn()} >
+    <Button variant={'outline'} onClick={() => signIn()} >
         Sign In
     </Button>
   )

@@ -19,7 +19,7 @@ async function Header() {
 
                 <>
                 <Link href={'/chat'} prefetch={false}>
-                  <MessageSquareIcon className='text-black dar:text-white'/>
+                  <MessageSquareIcon className='text-black dark:text-white'/>
                 </Link>  
                 </>
               ):(
